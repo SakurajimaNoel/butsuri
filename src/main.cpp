@@ -1,20 +1,19 @@
 #include "window.h"
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
 
-int main(int argc, char *args[])
+int main()
 {
-    Window window;
-    bool quit = false;
-    SDL_Event e;
-    while (!quit)
+    Window window(800, 600);
+
+    //render loop
+    while(!glfwWindowShouldClose(window.getWindow()))
     {
-        while (SDL_PollEvent(&e))
-        {
-            if (e.type == SDL_QUIT)
-            {
-                quit = true;
-            }
-        }
+        glClearColor(1.0f,0.25f,0.5f,1.0f);
+        glClear(GL_COLOR_BUFFER_BIT);
+        glfwPollEvents();
+        glfwSwapBuffers(window.getWindow());
     }
-    SDL_Quit();
+
     return 0;
 }

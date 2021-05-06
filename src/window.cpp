@@ -1,10 +1,39 @@
 #include "window.h"
 
-Window::Window():pSdlWindow(nullptr, SDL_DestroyWindow)
+Window::Window(int width, int height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(height)
 {
-    SDL_Init(SDL_INIT_VIDEO);
-    pSdlWindow.reset(SDL_CreateWindow("Butsuri", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, SCREEN_WIDTH, SCREEN_HEIGHT, SDL_WINDOW_SHOWN));
-    pScreenSurface = SDL_GetWindowSurface(pSdlWindow.get());
-    SDL_FillRect(pScreenSurface,nullptr, SDL_MapRGB(pScreenSurface->format, 0xAA, 0xFF, 0xFF) );
-    SDL_UpdateWindowSurface(pSdlWindow.get());
+    glfwInit();
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
+    glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
+    glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+    glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE);
+
+    pWindow = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Butsuri", nullptr, nullptr);
+    if (pWindow == nullptr)
+    {
+        std::cout<<"window init failed";
+        glfwTerminate();
+    }
+    glfwMakeContextCurrent(pWindow);
+
+    gladLoadGLLoader((GLADloadproc) glfwGetProcAddress);
+
+    glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
+
+    glfwSetFramebufferSizeCallback(pWindow, Window::framebuffer_size_callback);
+}
+
+void Window::framebuffer_size_callback(GLFWwindow *window, int width, int height)
+{
+    glViewport(0,0,width,height);
+}
+
+GLFWwindow* Window::getWindow()
+{
+    return pWindow;
+}
+
+Window::~Window()
+{
+    glfwTerminate();
 }

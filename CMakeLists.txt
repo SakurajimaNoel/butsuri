@@ -2,10 +2,15 @@ cmake_minimum_required(VERSION 3.19)
 project(butsuri)
 
 set(CMAKE_CXX_STANDARD 20)
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${butsuri_SOURCE_DIR}/cmake")
+set(GLFW_H /usr/local/Cellar/glfw/3.3.4/include)
+include_directories(${GLFW_H})
 
-add_executable(butsuri src/main.cpp src/window.cpp src/window.h)
+set(GLFW_LINK /usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.dylib)
+link_libraries(${OPENGL} ${GLFW_LINK})
 
-find_package(SDL2 REQUIRED)
-include_directories(${SDL2_INCLUDE_DIR})
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARY})
+add_executable(butsuri src/main.cpp src/window.cpp src/window.h src/glad.c)
+
+if (APPLE)
+    target_link_libraries(butsuri "-framework OpenGL")
+    target_link_libraries(butsuri "-framework GLUT")
+endif()

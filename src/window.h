@@ -1,14 +1,20 @@
 #pragma once
 #include <iostream>
-#include <SDL.h>
 #include <memory>
+#include <glad/glad.h>
+#include <GLFW/glfw3.h>
+
 class Window
 {
 private:
-    std::unique_ptr<SDL_Window, decltype(&SDL_DestroyWindow)> pSdlWindow;
-    SDL_Surface *pScreenSurface = nullptr;
-    const u_short SCREEN_WIDTH = 640;
-    const u_short SCREEN_HEIGHT = 480;
+    const int SCREEN_WIDTH;
+    const int SCREEN_HEIGHT;
+    GLFWwindow *pWindow;
 public:
-    Window();
+    static void framebuffer_size_callback(GLFWwindow *window, int width, int height);
+    GLFWwindow* getWindow();
+    Window(int width, int height);
+    ~Window();
+    Window(const Window&) = delete;
+    Window& operator=(const Window&) = delete;
 };

@@ -5,7 +5,7 @@
 		<Option title="butsuri"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\cmake\;"/>
+		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
 				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
@@ -44,7 +44,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.4/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -66,7 +66,7 @@
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include/SDL2"/>
+					<Add directory="/usr/local/Cellar/glfw/3.3.4/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/glad.c">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/main.cpp">
 			<Option target="butsuri"/>
 		</Unit>
@@ -93,9 +96,6 @@
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/cmake/FindSDL2.cmake">
-			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
