@@ -1,4 +1,5 @@
 #pragma once
+
 #include <iostream>
 #include <memory>
 #include <glad/glad.h>
@@ -12,9 +13,14 @@ private:
     GLFWwindow *pWindow;
 public:
     static void framebuffer_size_callback(GLFWwindow *window, int width, int height);
-    GLFWwindow* getWindow();
+
+    GLFWwindow *getWindow();
+
     Window(int width, int height);
+
     ~Window();
-    Window(const Window&) = delete;
-    Window& operator=(const Window&) = delete;
+
+    Window(const Window &) = delete;
+
+    Window &operator=(const Window &) = delete;
 };

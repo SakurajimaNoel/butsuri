@@ -6,14 +6,14 @@ CMakeFiles/butsuri.dir/src/glad.c.o
  /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
  /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
 CMakeFiles/butsuri.dir/src/main.cpp.o
+ /Users/nitinsikka/Desktop/butsuri/include/window.h
  /Users/nitinsikka/Desktop/butsuri/src/main.cpp
- /Users/nitinsikka/Desktop/butsuri/src/window.h
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
  /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
  /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
 CMakeFiles/butsuri.dir/src/window.cpp.o
+ /Users/nitinsikka/Desktop/butsuri/include/window.h
  /Users/nitinsikka/Desktop/butsuri/src/window.cpp
- /Users/nitinsikka/Desktop/butsuri/src/window.h
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
  /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
  /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h

@@ -82,6 +82,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/window.h">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/glad.c">
 			<Option target="butsuri"/>
 		</Unit>
@@ -89,9 +92,6 @@
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/window.cpp">
-			<Option target="butsuri"/>
-		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/window.h">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/CMakeLists.txt">

@@ -1,4 +1,4 @@
-#include "window.h"
+#include "../include/window.h"
 
 Window::Window(int width, int height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(height)
 {
@@ -11,7 +11,7 @@ Window::Window(int width, int height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(heigh
     pWindow = glfwCreateWindow(SCREEN_WIDTH, SCREEN_HEIGHT, "Butsuri", nullptr, nullptr);
     if (pWindow == nullptr)
     {
-        std::cout<<"window init failed";
+        std::cout << "window init failed";
         glfwTerminate();
     }
     glfwMakeContextCurrent(pWindow);
@@ -25,10 +25,10 @@ Window::Window(int width, int height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(heigh
 
 void Window::framebuffer_size_callback(GLFWwindow *window, int width, int height)
 {
-    glViewport(0,0,width,height);
+    glViewport(0, 0, width, height);
 }
 
-GLFWwindow* Window::getWindow()
+GLFWwindow *Window::getWindow()
 {
     return pWindow;
 }

@@ -5,14 +5,14 @@ CMakeFiles/butsuri.dir/src/glad.c.o: ../src/glad.c
 CMakeFiles/butsuri.dir/src/glad.c.o: /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
 CMakeFiles/butsuri.dir/src/glad.c.o: /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
 
+CMakeFiles/butsuri.dir/src/main.cpp.o: ../include/window.h
 CMakeFiles/butsuri.dir/src/main.cpp.o: ../src/main.cpp
-CMakeFiles/butsuri.dir/src/main.cpp.o: ../src/window.h
 CMakeFiles/butsuri.dir/src/main.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
 CMakeFiles/butsuri.dir/src/main.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
 CMakeFiles/butsuri.dir/src/main.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
 
+CMakeFiles/butsuri.dir/src/window.cpp.o: ../include/window.h
 CMakeFiles/butsuri.dir/src/window.cpp.o: ../src/window.cpp
-CMakeFiles/butsuri.dir/src/window.cpp.o: ../src/window.h
 CMakeFiles/butsuri.dir/src/window.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
 CMakeFiles/butsuri.dir/src/window.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
 CMakeFiles/butsuri.dir/src/window.cpp.o: /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
