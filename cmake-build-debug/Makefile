@@ -142,6 +142,33 @@ butsuri/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/build
 .PHONY : butsuri/fast
 
+src/baseDrawable.o: src/baseDrawable.cpp.o
+
+.PHONY : src/baseDrawable.o
+
+# target to build an object file
+src/baseDrawable.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/baseDrawable.cpp.o
+.PHONY : src/baseDrawable.cpp.o
+
+src/baseDrawable.i: src/baseDrawable.cpp.i
+
+.PHONY : src/baseDrawable.i
+
+# target to preprocess a source file
+src/baseDrawable.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/baseDrawable.cpp.i
+.PHONY : src/baseDrawable.cpp.i
+
+src/baseDrawable.s: src/baseDrawable.cpp.s
+
+.PHONY : src/baseDrawable.s
+
+# target to generate assembly for a file
+src/baseDrawable.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/baseDrawable.cpp.s
+.PHONY : src/baseDrawable.cpp.s
+
 src/glad.o: src/glad.c.o
 
 .PHONY : src/glad.o
@@ -196,6 +223,33 @@ src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/triangle.o: src/triangle.cpp.o
+
+.PHONY : src/triangle.o
+
+# target to build an object file
+src/triangle.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/triangle.cpp.o
+.PHONY : src/triangle.cpp.o
+
+src/triangle.i: src/triangle.cpp.i
+
+.PHONY : src/triangle.i
+
+# target to preprocess a source file
+src/triangle.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/triangle.cpp.i
+.PHONY : src/triangle.cpp.i
+
+src/triangle.s: src/triangle.cpp.s
+
+.PHONY : src/triangle.s
+
+# target to generate assembly for a file
+src/triangle.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/butsuri.dir/build.make CMakeFiles/butsuri.dir/src/triangle.cpp.s
+.PHONY : src/triangle.cpp.s
+
 src/window.o: src/window.cpp.o
 
 .PHONY : src/window.o
@@ -232,12 +286,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... butsuri"
+	@echo "... src/baseDrawable.o"
+	@echo "... src/baseDrawable.i"
+	@echo "... src/baseDrawable.s"
 	@echo "... src/glad.o"
 	@echo "... src/glad.i"
 	@echo "... src/glad.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/triangle.o"
+	@echo "... src/triangle.i"
+	@echo "... src/triangle.s"
 	@echo "... src/window.o"
 	@echo "... src/window.i"
 	@echo "... src/window.s"

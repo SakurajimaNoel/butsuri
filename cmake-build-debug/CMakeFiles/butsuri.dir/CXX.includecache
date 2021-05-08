@@ -6,23 +6,47 @@
 
 #IncludeRegexTransform: 
 
-/Users/nitinsikka/Desktop/butsuri/include/window.h
+/Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
 iostream
 -
-memory
+string
+-
+vector
+-
+fstream
+-
+sstream
 -
 glad/glad.h
 -
 GLFW/glfw3.h
 -
 
+/Users/nitinsikka/Desktop/butsuri/include/triangle.h
+baseDrawable.h
+/Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
+
+/Users/nitinsikka/Desktop/butsuri/include/window.h
+iostream
+-
+glad/glad.h
+-
+GLFW/glfw3.h
+-
+
+/Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp
+../include/baseDrawable.h
+/Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
+
 /Users/nitinsikka/Desktop/butsuri/src/main.cpp
 ../include/window.h
 /Users/nitinsikka/Desktop/butsuri/include/window.h
-fstream
--
-sstream
--
+../include/triangle.h
+/Users/nitinsikka/Desktop/butsuri/include/triangle.h
+
+/Users/nitinsikka/Desktop/butsuri/src/triangle.cpp
+../include/triangle.h
+/Users/nitinsikka/Desktop/butsuri/include/triangle.h
 
 /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
 stddef.h

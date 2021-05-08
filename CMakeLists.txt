@@ -8,7 +8,7 @@ include_directories(${GLFW_H})
 set(GLFW_LINK /usr/local/Cellar/glfw/3.3.4/lib/libglfw.3.dylib)
 link_libraries(${OPENGL} ${GLFW_LINK})
 
-add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c)
+add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c src/baseDrawable.cpp include/baseDrawable.h src/triangle.cpp include/triangle.h)
 
 if (APPLE)
     target_link_libraries(butsuri "-framework OpenGL")

@@ -5,9 +5,24 @@ CMakeFiles/butsuri.dir/src/glad.c.o
  /Users/nitinsikka/Desktop/butsuri/src/glad.c
  /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
  /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
+CMakeFiles/butsuri.dir/src/baseDrawable.cpp.o
+ /Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
+ /Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
+ /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
+ /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
 CMakeFiles/butsuri.dir/src/main.cpp.o
+ /Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
+ /Users/nitinsikka/Desktop/butsuri/include/triangle.h
  /Users/nitinsikka/Desktop/butsuri/include/window.h
  /Users/nitinsikka/Desktop/butsuri/src/main.cpp
+ /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
+ /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
+ /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h
+CMakeFiles/butsuri.dir/src/triangle.cpp.o
+ /Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h
+ /Users/nitinsikka/Desktop/butsuri/include/triangle.h
+ /Users/nitinsikka/Desktop/butsuri/src/triangle.cpp
  /usr/local/Cellar/glfw/3.3.4/include/GLFW/glfw3.h
  /usr/local/Cellar/glfw/3.3.4/include/KHR/khrplatform.h
  /usr/local/Cellar/glfw/3.3.4/include/glad/glad.h

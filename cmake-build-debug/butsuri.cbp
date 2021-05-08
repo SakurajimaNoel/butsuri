@@ -82,13 +82,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/triangle.h">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/window.h">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/glad.c">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/main.cpp">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/triangle.cpp">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/window.cpp">

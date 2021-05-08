@@ -14,7 +14,9 @@ set(CMAKE_C_TARGET_INCLUDE_PATH
   "/usr/local/Cellar/glfw/3.3.4/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/baseDrawable.cpp.o"
   "/Users/nitinsikka/Desktop/butsuri/src/main.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/main.cpp.o"
+  "/Users/nitinsikka/Desktop/butsuri/src/triangle.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/triangle.cpp.o"
   "/Users/nitinsikka/Desktop/butsuri/src/window.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/window.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
