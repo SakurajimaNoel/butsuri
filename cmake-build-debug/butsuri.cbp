@@ -4,109 +4,113 @@
 	<Project>
 		<Option title="butsuri"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="msvc8"/>
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
+				<Option working_dir="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 all"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
+				<Option working_dir="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-				</MakeCommands>
-			</Target>
-			<Target title="edit_cache">
-				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
-				<Option type="4"/>
-				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="butsuri">
-				<Option output="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/butsuri" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
+				<Option output="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/butsuri.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/glfw/3.3.4/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files (x86)/glfw-3.0.4/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 butsuri"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 butsuri"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="butsuri/fast">
-				<Option output="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/butsuri" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/nitinsikka/Desktop/butsuri/cmake-build-debug"/>
+				<Option output="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/butsuri.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="msvc8"/>
 				<Compiler>
-					<Add directory="/usr/local/Cellar/glfw/3.3.4/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/bin/../include/c++/v1"/>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/12.0.5/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add directory="C:/Program Files (x86)/glfw-3.0.4/include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\ATLMFC\include"/>
+					<Add directory="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\include"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"/>
+					<Add directory="C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\cppwinrt"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 butsuri/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 butsuri/fast"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 edit_cache"/>
+					<CompileFile command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
+					<DistClean command="nmake /NOLOGO /f C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\Makefile VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/baseDrawable.h">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/triangle.h">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/triangle.h">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/include/window.h">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/window.h">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/baseDrawable.cpp">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/glad.c">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/glad.c">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/main.cpp">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/main.cpp">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/triangle.cpp">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/triangle.cpp">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/src/window.cpp">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/window.cpp">
 			<Option target="butsuri"/>
 		</Unit>
-		<Unit filename="/Users/nitinsikka/Desktop/butsuri/CMakeLists.txt">
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

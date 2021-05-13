@@ -1,10 +1,12 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/butsuri.dir/src/baseDrawable.cpp.o"
-  "CMakeFiles/butsuri.dir/src/glad.c.o"
-  "CMakeFiles/butsuri.dir/src/main.cpp.o"
-  "CMakeFiles/butsuri.dir/src/triangle.cpp.o"
-  "CMakeFiles/butsuri.dir/src/window.cpp.o"
-  "butsuri"
+  "CMakeFiles/butsuri.dir/src/baseDrawable.cpp.obj"
+  "CMakeFiles/butsuri.dir/src/glad.c.obj"
+  "CMakeFiles/butsuri.dir/src/main.cpp.obj"
+  "CMakeFiles/butsuri.dir/src/triangle.cpp.obj"
+  "CMakeFiles/butsuri.dir/src/window.cpp.obj"
+  "butsuri.exe"
+  "butsuri.exe.manifest"
+  "butsuri.lib"
   "butsuri.pdb"
 )
 

@@ -5,25 +5,25 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/nitinsikka/Desktop/butsuri/src/glad.c" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/glad.c.o"
+  "C:/Users/amitk/CLionProjects/butsuri/src/glad.c" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/glad.c.obj"
   )
-set(CMAKE_C_COMPILER_ID "AppleClang")
+set(CMAKE_C_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/usr/local/Cellar/glfw/3.3.4/include"
+  "C:/Program Files (x86)/glfw-3.0.4/include"
   )
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/nitinsikka/Desktop/butsuri/src/baseDrawable.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/baseDrawable.cpp.o"
-  "/Users/nitinsikka/Desktop/butsuri/src/main.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/main.cpp.o"
-  "/Users/nitinsikka/Desktop/butsuri/src/triangle.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/triangle.cpp.o"
-  "/Users/nitinsikka/Desktop/butsuri/src/window.cpp" "/Users/nitinsikka/Desktop/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/window.cpp.o"
+  "C:/Users/amitk/CLionProjects/butsuri/src/baseDrawable.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/baseDrawable.cpp.obj"
+  "C:/Users/amitk/CLionProjects/butsuri/src/main.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/main.cpp.obj"
+  "C:/Users/amitk/CLionProjects/butsuri/src/triangle.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/triangle.cpp.obj"
+  "C:/Users/amitk/CLionProjects/butsuri/src/window.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/window.cpp.obj"
   )
-set(CMAKE_CXX_COMPILER_ID "AppleClang")
+set(CMAKE_CXX_COMPILER_ID "MSVC")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/usr/local/Cellar/glfw/3.3.4/include"
+  "C:/Program Files (x86)/glfw-3.0.4/include"
   )
 
 # Targets to which this target links.
