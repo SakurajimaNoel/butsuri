@@ -153,6 +153,60 @@ src\baseDrawable.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\baseDrawable.cpp.s
 .PHONY : src\baseDrawable.cpp.s
 
+src\camera.obj: src\camera.cpp.obj
+
+.PHONY : src\camera.obj
+
+# target to build an object file
+src\camera.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\camera.cpp.obj
+.PHONY : src\camera.cpp.obj
+
+src\camera.i: src\camera.cpp.i
+
+.PHONY : src\camera.i
+
+# target to preprocess a source file
+src\camera.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\camera.cpp.i
+.PHONY : src\camera.cpp.i
+
+src\camera.s: src\camera.cpp.s
+
+.PHONY : src\camera.s
+
+# target to generate assembly for a file
+src\camera.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\camera.cpp.s
+.PHONY : src\camera.cpp.s
+
+src\cube.obj: src\cube.cpp.obj
+
+.PHONY : src\cube.obj
+
+# target to build an object file
+src\cube.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\cube.cpp.obj
+.PHONY : src\cube.cpp.obj
+
+src\cube.i: src\cube.cpp.i
+
+.PHONY : src\cube.i
+
+# target to preprocess a source file
+src\cube.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\cube.cpp.i
+.PHONY : src\cube.cpp.i
+
+src\cube.s: src\cube.cpp.s
+
+.PHONY : src\cube.s
+
+# target to generate assembly for a file
+src\cube.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\cube.cpp.s
+.PHONY : src\cube.cpp.s
+
 src\glad.obj: src\glad.c.obj
 
 .PHONY : src\glad.obj
@@ -206,6 +260,33 @@ src\main.s: src\main.cpp.s
 src\main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\main.cpp.s
 .PHONY : src\main.cpp.s
+
+src\time.obj: src\time.cpp.obj
+
+.PHONY : src\time.obj
+
+# target to build an object file
+src\time.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\time.cpp.obj
+.PHONY : src\time.cpp.obj
+
+src\time.i: src\time.cpp.i
+
+.PHONY : src\time.i
+
+# target to preprocess a source file
+src\time.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\time.cpp.i
+.PHONY : src\time.cpp.i
+
+src\time.s: src\time.cpp.s
+
+.PHONY : src\time.s
+
+# target to generate assembly for a file
+src\time.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\time.cpp.s
+.PHONY : src\time.cpp.s
 
 src\triangle.obj: src\triangle.cpp.obj
 
@@ -273,12 +354,21 @@ help:
 	@echo ... src/baseDrawable.obj
 	@echo ... src/baseDrawable.i
 	@echo ... src/baseDrawable.s
+	@echo ... src/camera.obj
+	@echo ... src/camera.i
+	@echo ... src/camera.s
+	@echo ... src/cube.obj
+	@echo ... src/cube.i
+	@echo ... src/cube.s
 	@echo ... src/glad.obj
 	@echo ... src/glad.i
 	@echo ... src/glad.s
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/time.obj
+	@echo ... src/time.i
+	@echo ... src/time.s
 	@echo ... src/triangle.obj
 	@echo ... src/triangle.i
 	@echo ... src/triangle.s

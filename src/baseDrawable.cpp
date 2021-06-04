@@ -79,8 +79,36 @@ void BaseDrawable::bindShaderProgram(GLuint &shaderProgram)
     glUseProgram(shaderProgram);
 }
 
+void BaseDrawable::setTexture(std::string &texturePath)
+{
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_2D, texture);
+
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_S, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_WRAP_T, GL_REPEAT);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
+    GLint width, height, channels;
+    stbi_set_flip_vertically_on_load(true);
+    GLubyte *data = stbi_load("../textures/grass_side.png", &width, &height, &channels, 3);
+    if(data)
+    {
+        glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+        glGenerateMipmap(GL_TEXTURE_2D);
+    }
+    else
+    {
+        std::cout<<"ERROR::TEXTURE_LOADING_FAILED\n";
+    }
+    stbi_image_free(data);
+}
+
+
+
 void BaseDrawable::draw(GLuint &VAO)
 {
     glBindVertexArray(VAO);
-    glDrawElements(GL_TRIANGLES, 3, GL_UNSIGNED_INT, nullptr);
+    glBindTexture(GL_TEXTURE_2D, texture);
+    glDrawElements(GL_TRIANGLES, indexSize, GL_UNSIGNED_INT, nullptr);
 }

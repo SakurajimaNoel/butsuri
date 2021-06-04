@@ -21,6 +21,8 @@ Window::Window(int width, int height) : SCREEN_WIDTH(width), SCREEN_HEIGHT(heigh
     glViewport(0, 0, SCREEN_WIDTH, SCREEN_HEIGHT);
 
     glfwSetFramebufferSizeCallback(pWindow, Window::framebuffer_size_callback);
+    glfwSetInputMode(pWindow, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glEnable(GL_DEPTH_TEST);
 }
 
 void Window::framebuffer_size_callback(GLFWwindow *window, int width, int height)

@@ -89,6 +89,15 @@
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h">
 			<Option target="butsuri"/>
 		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/camera.h">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/cube.h">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/time.h">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/triangle.h">
 			<Option target="butsuri"/>
 		</Unit>
@@ -98,10 +107,19 @@
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/baseDrawable.cpp">
 			<Option target="butsuri"/>
 		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/camera.cpp">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/cube.cpp">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/glad.c">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/main.cpp">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/time.cpp">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/triangle.cpp">

@@ -155,13 +155,73 @@ CMakeFiles\butsuri.dir\src\triangle.cpp.s: cmake_force
  /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\butsuri.dir\src\triangle.cpp.s /c C:\Users\amitk\CLionProjects\butsuri\src\triangle.cpp
 <<
 
+CMakeFiles\butsuri.dir\src\cube.cpp.obj: CMakeFiles\butsuri.dir\flags.make
+CMakeFiles\butsuri.dir\src\cube.cpp.obj: ..\src\cube.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/butsuri.dir/src/cube.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\butsuri.dir\src\cube.cpp.obj /FdCMakeFiles\butsuri.dir\ /FS -c C:\Users\amitk\CLionProjects\butsuri\src\cube.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\cube.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/butsuri.dir/src/cube.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\butsuri.dir\src\cube.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\amitk\CLionProjects\butsuri\src\cube.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\cube.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/butsuri.dir/src/cube.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\butsuri.dir\src\cube.cpp.s /c C:\Users\amitk\CLionProjects\butsuri\src\cube.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\camera.cpp.obj: CMakeFiles\butsuri.dir\flags.make
+CMakeFiles\butsuri.dir\src\camera.cpp.obj: ..\src\camera.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/butsuri.dir/src/camera.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\butsuri.dir\src\camera.cpp.obj /FdCMakeFiles\butsuri.dir\ /FS -c C:\Users\amitk\CLionProjects\butsuri\src\camera.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\camera.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/butsuri.dir/src/camera.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\butsuri.dir\src\camera.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\amitk\CLionProjects\butsuri\src\camera.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\camera.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/butsuri.dir/src/camera.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\butsuri.dir\src\camera.cpp.s /c C:\Users\amitk\CLionProjects\butsuri\src\camera.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\time.cpp.obj: CMakeFiles\butsuri.dir\flags.make
+CMakeFiles\butsuri.dir\src\time.cpp.obj: ..\src\time.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/butsuri.dir/src/time.cpp.obj"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\butsuri.dir\src\time.cpp.obj /FdCMakeFiles\butsuri.dir\ /FS -c C:\Users\amitk\CLionProjects\butsuri\src\time.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\time.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/butsuri.dir/src/time.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe > CMakeFiles\butsuri.dir\src\time.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\amitk\CLionProjects\butsuri\src\time.cpp
+<<
+
+CMakeFiles\butsuri.dir\src\time.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/butsuri.dir/src/time.cpp.s"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\cl.exe @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\butsuri.dir\src\time.cpp.s /c C:\Users\amitk\CLionProjects\butsuri\src\time.cpp
+<<
+
 # Object files for target butsuri
 butsuri_OBJECTS = \
 "CMakeFiles\butsuri.dir\src\main.cpp.obj" \
 "CMakeFiles\butsuri.dir\src\window.cpp.obj" \
 "CMakeFiles\butsuri.dir\src\glad.c.obj" \
 "CMakeFiles\butsuri.dir\src\baseDrawable.cpp.obj" \
-"CMakeFiles\butsuri.dir\src\triangle.cpp.obj"
+"CMakeFiles\butsuri.dir\src\triangle.cpp.obj" \
+"CMakeFiles\butsuri.dir\src\cube.cpp.obj" \
+"CMakeFiles\butsuri.dir\src\camera.cpp.obj" \
+"CMakeFiles\butsuri.dir\src\time.cpp.obj"
 
 # External object files for target butsuri
 butsuri_EXTERNAL_OBJECTS =
@@ -171,10 +231,13 @@ butsuri.exe: CMakeFiles\butsuri.dir\src\window.cpp.obj
 butsuri.exe: CMakeFiles\butsuri.dir\src\glad.c.obj
 butsuri.exe: CMakeFiles\butsuri.dir\src\baseDrawable.cpp.obj
 butsuri.exe: CMakeFiles\butsuri.dir\src\triangle.cpp.obj
+butsuri.exe: CMakeFiles\butsuri.dir\src\cube.cpp.obj
+butsuri.exe: CMakeFiles\butsuri.dir\src\camera.cpp.obj
+butsuri.exe: CMakeFiles\butsuri.dir\src\time.cpp.obj
 butsuri.exe: CMakeFiles\butsuri.dir\build.make
 butsuri.exe: "C:\Program Files (x86)\glfw-3.0.4\lib\glfw3.lib"
 butsuri.exe: CMakeFiles\butsuri.dir\objects1.rsp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable butsuri.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable butsuri.exe"
 	"C:\Program Files\JetBrains\CLion 2021.1.1\bin\cmake\win\bin\cmake.exe" -E vs_link_exe --intdir=CMakeFiles\butsuri.dir --rc=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\rc.exe --mt=C:\PROGRA~2\WI3CF2~1\10\bin\100190~1.0\x64\mt.exe --manifests -- C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1428~1.299\bin\Hostx64\x64\link.exe /nologo @CMakeFiles\butsuri.dir\objects1.rsp @<<
  /out:butsuri.exe /implib:butsuri.lib /pdb:C:\Users\amitk\CLionProjects\butsuri\cmake-build-debug\butsuri.pdb /version:0.0 /machine:x64 /debug /INCREMENTAL /subsystem:console  "C:\Program Files (x86)\glfw-3.0.4\lib\glfw3.lib" kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib 
 <<
