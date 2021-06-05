@@ -1434,10 +1434,6 @@ glad/glad.h
 GLFW/glfw3.h
 -
 
-C:/Users/amitk/CLionProjects/butsuri/src/baseDrawable.cpp
-../include/baseDrawable.h
-C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
-
 C:/Users/amitk/CLionProjects/butsuri/src/cube.cpp
 ../include/cube.h
 C:/Users/amitk/CLionProjects/butsuri/include/cube.h
@@ -1457,8 +1453,4 @@ C:/Users/amitk/CLionProjects/butsuri/include/camera.h
 C:/Users/amitk/CLionProjects/butsuri/include/time.h
 ../include/stb_image.h
 C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
-
-C:/Users/amitk/CLionProjects/butsuri/src/triangle.cpp
-../include/triangle.h
-C:/Users/amitk/CLionProjects/butsuri/include/triangle.h
 

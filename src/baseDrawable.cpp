@@ -104,11 +104,42 @@ void BaseDrawable::setTexture(std::string &texturePath)
     stbi_image_free(data);
 }
 
+void BaseDrawable::setTexture(const std::vector<std::string> &textures)
+{
+    glGenTextures(1, &texture);
+    glBindTexture(GL_TEXTURE_CUBE_MAP, texture);
+    std::cout << glGetError() << std::endl;
+    GLint width, height, channels;
+    GLubyte *data;
+    for(GLuint i = 0; i < textures.size(); i++)
+    {
+        data = stbi_load(textures.at(i).c_str(), &width, &height, &channels, 3);
+        glTexImage2D(GL_TEXTURE_CUBE_MAP_POSITIVE_X + i, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
+        stbi_image_free(data);
+    }
 
+    glGenerateMipmap(GL_TEXTURE_CUBE_MAP);
+
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_S, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_T, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_WRAP_R, GL_CLAMP_TO_EDGE);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
+    glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
+
+    glBindTexture(GL_TEXTURE_CUBE_MAP,0);
+}
 
 void BaseDrawable::draw(GLuint &VAO)
 {
     glBindVertexArray(VAO);
     glBindTexture(GL_TEXTURE_2D, texture);
     glDrawElements(GL_TRIANGLES, indexSize, GL_UNSIGNED_INT, nullptr);
+}
+
+void BaseDrawable::drawCM(GLuint &VAO)
+{
+    glBindVertexArray(VAO);
+    glBindTexture(GL_TEXTURE_CUBE_MAP, texture);
+    glDrawElements(GL_TRIANGLES, indexSize, GL_UNSIGNED_INT, nullptr);
+
 }

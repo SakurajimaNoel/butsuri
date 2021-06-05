@@ -8,7 +8,7 @@ Cube::Cube()
 
     bindVertexBuffer(vertices, indices, VAO, VBO, EBO);
     setShaders(vsPath, fsPath, shaderProgram);
-    setTexture(texturePath);
+    setTexture(textureFaces);
 
 }
 

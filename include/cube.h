@@ -8,19 +8,18 @@ private:
     struct Vertex
     {
         GLfloat x, y, z;
-        GLfloat tX, tY;
     };
 
     const std::vector<Vertex> vertices =
     {
-            {-0.5f,-0.5f,-0.5f, 1.0f, 0.0f},
-            {-0.5f,-0.5f, 0.5f, 0.0f, 0.0f},
-            {-0.5f, 0.5f,-0.5f, 1.0f, 1.0f},
-            {-0.5f, 0.5f, 0.5f, 0.0f, 1.0f},
-            {0.5f,-0.5f,-0.5f, 1.0f, 0.0f},
-            {0.5f,-0.5f, 0.5f, 0.0f, 0.0f},
-            {0.5f, 0.5f,-0.5f, 1.0f, 1.0f},
-            {0.5f, 0.5f, 0.5f, 0.0f, 1.0f}
+            {-0.5f,-0.5f,-0.5f},
+            {-0.5f,-0.5f, 0.5f},
+            {-0.5f, 0.5f,-0.5f},
+            {-0.5f, 0.5f, 0.5f},
+            {0.5f,-0.5f,-0.5f},
+            {0.5f,-0.5f, 0.5f},
+            {0.5f, 0.5f,-0.5f},
+            {0.5f, 0.5f, 0.5f}
 
     };
 
@@ -35,9 +34,17 @@ private:
     };
 
     GLuint VBO,EBO;
-    const std::string vsPath = "../shaders/vertexShader.vert";
-    const std::string fsPath = "../shaders/fragmentShader.frag";
-    std::string texturePath = "../textures/grass_side.png";
+    const std::string vsPath = "../shaders/cubeMap.vert";
+    const std::string fsPath = "../shaders/cubeMap.frag";
+    const std::vector<std::string> textureFaces =
+            {
+                    "../textures/grass_side.png",
+                    "../textures/grass_side.png",
+                    "../textures/grass_side.png",
+                    "../textures/grass_side.png",
+                    "../textures/grass_side.png",
+                    "../textures/grass_side.png"
+            };
 
 public:
 

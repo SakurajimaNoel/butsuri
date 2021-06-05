@@ -53,7 +53,7 @@ int main()
 
         //triangle.draw(triangle.VAO);
 
-        cube.draw(cube.VAO);
+        cube.drawCM(cube.VAO);
         glfwSwapBuffers(window.getWindow());
         glfwPollEvents();
         time.reset();
