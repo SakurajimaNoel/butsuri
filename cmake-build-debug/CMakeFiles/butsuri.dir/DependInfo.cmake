@@ -18,6 +18,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/amitk/CLionProjects/butsuri/src/camera.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/camera.cpp.obj"
   "C:/Users/amitk/CLionProjects/butsuri/src/cube.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/cube.cpp.obj"
   "C:/Users/amitk/CLionProjects/butsuri/src/main.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/main.cpp.obj"
+  "C:/Users/amitk/CLionProjects/butsuri/src/skybox.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/skybox.cpp.obj"
   "C:/Users/amitk/CLionProjects/butsuri/src/time.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/time.cpp.obj"
   "C:/Users/amitk/CLionProjects/butsuri/src/triangle.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/triangle.cpp.obj"
   "C:/Users/amitk/CLionProjects/butsuri/src/window.cpp" "C:/Users/amitk/CLionProjects/butsuri/cmake-build-debug/CMakeFiles/butsuri.dir/src/window.cpp.obj"

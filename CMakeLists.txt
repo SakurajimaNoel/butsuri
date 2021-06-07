@@ -16,7 +16,7 @@ include_directories(${GLFW_H})
 link_libraries(${OPENGL} ${GLFW_LINK})
 
 
-add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c src/baseDrawable.cpp include/baseDrawable.h src/triangle.cpp include/triangle.h src/cube.cpp include/cube.h src/camera.cpp include/camera.h include/time.h src/time.cpp)
+add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c src/baseDrawable.cpp include/baseDrawable.h src/triangle.cpp include/triangle.h src/cube.cpp include/cube.h src/camera.cpp include/camera.h include/time.h src/time.cpp src/skybox.cpp include/skybox.h)
 
 if (APPLE)
     target_link_libraries(butsuri "-framework OpenGL")

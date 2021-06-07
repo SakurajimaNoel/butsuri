@@ -95,6 +95,9 @@
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/cube.h">
 			<Option target="butsuri"/>
 		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/skybox.h">
+			<Option target="butsuri"/>
+		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/include/time.h">
 			<Option target="butsuri"/>
 		</Unit>
@@ -117,6 +120,9 @@
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/main.cpp">
+			<Option target="butsuri"/>
+		</Unit>
+		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/skybox.cpp">
 			<Option target="butsuri"/>
 		</Unit>
 		<Unit filename="C:/Users/amitk/CLionProjects/butsuri/src/time.cpp">

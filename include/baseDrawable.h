@@ -48,7 +48,7 @@ private:
 public:
     void bindShaderProgram(GLuint &shaderProgram);
 
-    void draw(GLuint &VAO);
+    void drawIndexed(GLuint &VAO);
     void drawCM(GLuint &VAO);
 
 };

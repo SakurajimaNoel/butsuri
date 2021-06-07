@@ -374,11 +374,20 @@ CMakeFiles/butsuri.dir/src/main.cpp.obj
  C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
  C:/Users/amitk/CLionProjects/butsuri/include/camera.h
  C:/Users/amitk/CLionProjects/butsuri/include/cube.h
+ C:/Users/amitk/CLionProjects/butsuri/include/skybox.h
  C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
  C:/Users/amitk/CLionProjects/butsuri/include/time.h
  C:/Users/amitk/CLionProjects/butsuri/include/triangle.h
  C:/Users/amitk/CLionProjects/butsuri/include/window.h
  C:/Users/amitk/CLionProjects/butsuri/src/main.cpp
+CMakeFiles/butsuri.dir/src/skybox.cpp.obj
+ C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
+ C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
+ C:/Users/amitk/CLionProjects/butsuri/include/skybox.h
+ C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
+ C:/Users/amitk/CLionProjects/butsuri/src/skybox.cpp
 CMakeFiles/butsuri.dir/src/time.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
  C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h

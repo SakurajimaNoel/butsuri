@@ -373,11 +373,20 @@ CMakeFiles\butsuri.dir\src\main.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\incl
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\baseDrawable.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\camera.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\cube.h
+CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\skybox.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\stb_image.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\time.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\triangle.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\include\window.h
 CMakeFiles\butsuri.dir\src\main.cpp.obj: ..\src\main.cpp
+
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\include\GLFW\glfw3.h"
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\include\KHR\khrplatform.h"
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\include\glad\glad.h"
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: ..\include\baseDrawable.h
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: ..\include\skybox.h
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: ..\include\stb_image.h
+CMakeFiles\butsuri.dir\src\skybox.cpp.obj: ..\src\skybox.cpp
 
 CMakeFiles\butsuri.dir\src\time.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\include\GLFW\glfw3.h"
 CMakeFiles\butsuri.dir\src\time.cpp.obj: "C:\Program Files (x86)\glfw-3.0.4\include\KHR\khrplatform.h"

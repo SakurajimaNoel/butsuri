@@ -261,6 +261,33 @@ src\main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\main.cpp.s
 .PHONY : src\main.cpp.s
 
+src\skybox.obj: src\skybox.cpp.obj
+
+.PHONY : src\skybox.obj
+
+# target to build an object file
+src\skybox.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\skybox.cpp.obj
+.PHONY : src\skybox.cpp.obj
+
+src\skybox.i: src\skybox.cpp.i
+
+.PHONY : src\skybox.i
+
+# target to preprocess a source file
+src\skybox.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\skybox.cpp.i
+.PHONY : src\skybox.cpp.i
+
+src\skybox.s: src\skybox.cpp.s
+
+.PHONY : src\skybox.s
+
+# target to generate assembly for a file
+src\skybox.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\skybox.cpp.s
+.PHONY : src\skybox.cpp.s
+
 src\time.obj: src\time.cpp.obj
 
 .PHONY : src\time.obj
@@ -366,6 +393,9 @@ help:
 	@echo ... src/main.obj
 	@echo ... src/main.i
 	@echo ... src/main.s
+	@echo ... src/skybox.obj
+	@echo ... src/skybox.i
+	@echo ... src/skybox.s
 	@echo ... src/time.obj
 	@echo ... src/time.i
 	@echo ... src/time.s

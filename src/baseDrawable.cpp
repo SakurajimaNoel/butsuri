@@ -108,7 +108,6 @@ void BaseDrawable::setTexture(const std::vector<std::string> &textures)
 {
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_CUBE_MAP, texture);
-    std::cout << glGetError() << std::endl;
     GLint width, height, channels;
     GLubyte *data;
     for(GLuint i = 0; i < textures.size(); i++)
@@ -129,11 +128,12 @@ void BaseDrawable::setTexture(const std::vector<std::string> &textures)
     glBindTexture(GL_TEXTURE_CUBE_MAP,0);
 }
 
-void BaseDrawable::draw(GLuint &VAO)
+void BaseDrawable::drawIndexed(GLuint &VAO)
 {
     glBindVertexArray(VAO);
     glBindTexture(GL_TEXTURE_2D, texture);
     glDrawElements(GL_TRIANGLES, indexSize, GL_UNSIGNED_INT, nullptr);
+    glBindVertexArray(0);
 }
 
 void BaseDrawable::drawCM(GLuint &VAO)
@@ -141,5 +141,5 @@ void BaseDrawable::drawCM(GLuint &VAO)
     glBindVertexArray(VAO);
     glBindTexture(GL_TEXTURE_CUBE_MAP, texture);
     glDrawElements(GL_TRIANGLES, indexSize, GL_UNSIGNED_INT, nullptr);
-
+    glBindVertexArray(0);
 }
