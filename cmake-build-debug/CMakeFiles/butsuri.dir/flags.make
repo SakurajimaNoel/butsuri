@@ -5,13 +5,13 @@
 # compile CXX with C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/VC/Tools/MSVC/14.28.29910/bin/Hostx64/x64/cl.exe
 C_DEFINES = 
 
-C_INCLUDES = -IC:\PROGRA~2\GLFW-3~1.4\include
+C_INCLUDES = -IC:\PROGRA~2\GLFW-3~1.4\include -IC:\PROGRA~2\FASTNO~1\include
 
 C_FLAGS = /DWIN32 /D_WINDOWS /Zi /Ob0 /Od /RTC1 -MDd
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -IC:\PROGRA~2\GLFW-3~1.4\include
+CXX_INCLUDES = -IC:\PROGRA~2\GLFW-3~1.4\include -IC:\PROGRA~2\FASTNO~1\include
 
 CXX_FLAGS = /DWIN32 /D_WINDOWS /GR /EHsc /Zi /Ob0 /Od /RTC1 -MDd -std:c++latest
 

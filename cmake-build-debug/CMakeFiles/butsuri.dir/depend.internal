@@ -9,6 +9,78 @@ CMakeFiles/butsuri.dir/src/baseDrawable.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
  C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
  C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_vector_relational.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/qualifier.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/setup.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/exponential.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_int_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_uint_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/geometric.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/common.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/exponential.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/geometric.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/neon.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/platform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
  C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
  C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
  C:/Users/amitk/CLionProjects/butsuri/src/baseDrawable.cpp
@@ -169,20 +241,209 @@ CMakeFiles/butsuri.dir/src/camera.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
  C:/Users/amitk/CLionProjects/butsuri/include/camera.h
  C:/Users/amitk/CLionProjects/butsuri/src/camera.cpp
-CMakeFiles/butsuri.dir/src/cube.cpp.obj
- C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
- C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
- C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
- C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
- C:/Users/amitk/CLionProjects/butsuri/include/cube.h
- C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
- C:/Users/amitk/CLionProjects/butsuri/src/cube.cpp
-CMakeFiles/butsuri.dir/src/main.cpp.obj
+CMakeFiles/butsuri.dir/src/chunk.cpp.obj
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise_Config.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise_Export.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/BasicGenerators.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Blends.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Cellular.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/DomainWarp.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/DomainWarpFractal.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Fractal.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Generator.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Modifiers.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Perlin.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Simplex.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Value.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/SmartNode.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD_Config.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD_Export.h
  C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
  C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
  C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
  C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_vector_relational.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/qualifier.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/setup.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/exponential.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_int_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_uint_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/geometric.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/common.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/exponential.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/geometric.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/neon.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/platform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
+ C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
+ C:/Users/amitk/CLionProjects/butsuri/include/chunk.h
+ C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
+ C:/Users/amitk/CLionProjects/butsuri/src/chunk.cpp
+CMakeFiles/butsuri.dir/src/cube.cpp.obj
+ C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
+ C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_vector_relational.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/qualifier.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/setup.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/exponential.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_int_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_uint_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/geometric.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/common.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/exponential.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/geometric.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/neon.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/platform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
+ C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
+ C:/Users/amitk/CLionProjects/butsuri/include/cube.h
+ C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
+ C:/Users/amitk/CLionProjects/butsuri/src/cube.cpp
+CMakeFiles/butsuri.dir/src/main.cpp.obj
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise_Config.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/FastNoise_Export.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/BasicGenerators.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Blends.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Cellular.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/DomainWarp.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/DomainWarpFractal.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Fractal.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Generator.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Modifiers.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Perlin.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Simplex.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/Generators/Value.h
+ C:/Program Files (x86)/FastNoise2/include/FastNoise/SmartNode.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD_Config.h
+ C:/Program Files (x86)/FastNoise2/include/FastSIMD/FastSIMD_Export.h
+ C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
+ C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
@@ -344,6 +605,8 @@ CMakeFiles/butsuri.dir/src/main.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/epsilon.inl
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/matrix_transform.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/matrix_transform.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/quaternion.hpp
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/quaternion.inl
  C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/quaternion_simd.inl
@@ -373,6 +636,7 @@ CMakeFiles/butsuri.dir/src/main.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
  C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
  C:/Users/amitk/CLionProjects/butsuri/include/camera.h
+ C:/Users/amitk/CLionProjects/butsuri/include/chunk.h
  C:/Users/amitk/CLionProjects/butsuri/include/cube.h
  C:/Users/amitk/CLionProjects/butsuri/include/skybox.h
  C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
@@ -384,6 +648,78 @@ CMakeFiles/butsuri.dir/src/skybox.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
  C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
  C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_vector_relational.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/qualifier.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/setup.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/exponential.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_int_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_uint_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/geometric.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/common.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/exponential.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/geometric.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/neon.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/platform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
  C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
  C:/Users/amitk/CLionProjects/butsuri/include/skybox.h
  C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
@@ -398,6 +734,78 @@ CMakeFiles/butsuri.dir/src/triangle.cpp.obj
  C:/Program Files (x86)/glfw-3.0.4/include/GLFW/glfw3.h
  C:/Program Files (x86)/glfw-3.0.4/include/KHR/khrplatform.h
  C:/Program Files (x86)/glfw-3.0.4/include/glad/glad.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_fixes.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_swizzle_func.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/_vectorize.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_common.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/compute_vector_relational.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_common_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_exponential_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_geometric_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/func_vector_relational_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/qualifier.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/setup.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec1.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec2.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec3.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/detail/type_vec4_simd.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/exponential.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_int_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/scalar_uint_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_bool4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_double4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float2_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float3_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_float4_precision.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_int4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint2_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint3_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/ext/vector_uint4_sized.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/geometric.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/gtc/noise.inl
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/common.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/exponential.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/geometric.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/neon.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/simd/platform.h
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec2.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec3.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vec4.hpp
+ C:/Program Files (x86)/glfw-3.0.4/include/glm/vector_relational.hpp
  C:/Users/amitk/CLionProjects/butsuri/include/baseDrawable.h
  C:/Users/amitk/CLionProjects/butsuri/include/stb_image.h
  C:/Users/amitk/CLionProjects/butsuri/include/triangle.h

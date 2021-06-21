@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/butsuri.dir/src/baseDrawable.cpp.obj"
   "CMakeFiles/butsuri.dir/src/camera.cpp.obj"
+  "CMakeFiles/butsuri.dir/src/chunk.cpp.obj"
   "CMakeFiles/butsuri.dir/src/cube.cpp.obj"
   "CMakeFiles/butsuri.dir/src/glad.c.obj"
   "CMakeFiles/butsuri.dir/src/main.cpp.obj"

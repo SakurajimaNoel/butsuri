@@ -79,7 +79,7 @@ void BaseDrawable::bindShaderProgram(GLuint &shaderProgram)
     glUseProgram(shaderProgram);
 }
 
-void BaseDrawable::setTexture(std::string &texturePath)
+void BaseDrawable::setTexture(const std::string &texturePath)
 {
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_2D, texture);
@@ -108,6 +108,7 @@ void BaseDrawable::setTexture(const std::vector<std::string> &textures)
 {
     glGenTextures(1, &texture);
     glBindTexture(GL_TEXTURE_CUBE_MAP, texture);
+    stbi_set_flip_vertically_on_load(false);
     GLint width, height, channels;
     GLubyte *data;
     for(GLuint i = 0; i < textures.size(); i++)
@@ -126,6 +127,13 @@ void BaseDrawable::setTexture(const std::vector<std::string> &textures)
     glTexParameteri(GL_TEXTURE_CUBE_MAP, GL_TEXTURE_MAG_FILTER, GL_NEAREST);
 
     glBindTexture(GL_TEXTURE_CUBE_MAP,0);
+}
+void BaseDrawable::draw(GLuint &VAO)
+{
+    glBindVertexArray(VAO);
+    glBindTexture(GL_TEXTURE_2D, texture);
+    glDrawArrays(GL_TRIANGLES, 0, indexSize);
+    glBindVertexArray(0);
 }
 
 void BaseDrawable::drawIndexed(GLuint &VAO)

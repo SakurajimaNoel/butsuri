@@ -180,6 +180,33 @@ src\camera.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\camera.cpp.s
 .PHONY : src\camera.cpp.s
 
+src\chunk.obj: src\chunk.cpp.obj
+
+.PHONY : src\chunk.obj
+
+# target to build an object file
+src\chunk.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\chunk.cpp.obj
+.PHONY : src\chunk.cpp.obj
+
+src\chunk.i: src\chunk.cpp.i
+
+.PHONY : src\chunk.i
+
+# target to preprocess a source file
+src\chunk.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\chunk.cpp.i
+.PHONY : src\chunk.cpp.i
+
+src\chunk.s: src\chunk.cpp.s
+
+.PHONY : src\chunk.s
+
+# target to generate assembly for a file
+src\chunk.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\butsuri.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\butsuri.dir\src\chunk.cpp.s
+.PHONY : src\chunk.cpp.s
+
 src\cube.obj: src\cube.cpp.obj
 
 .PHONY : src\cube.obj
@@ -384,6 +411,9 @@ help:
 	@echo ... src/camera.obj
 	@echo ... src/camera.i
 	@echo ... src/camera.s
+	@echo ... src/chunk.obj
+	@echo ... src/chunk.i
+	@echo ... src/chunk.s
 	@echo ... src/cube.obj
 	@echo ... src/cube.i
 	@echo ... src/cube.s

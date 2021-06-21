@@ -5,6 +5,7 @@
 #include "../include/camera.h"
 #include "../include/time.h"
 #include "../include/skybox.h"
+#include "../include/chunk.h"
 #define STB_IMAGE_IMPLEMENTATION
 #include "../include/stb_image.h"
 
@@ -19,12 +20,12 @@ int main()
     Camera camera(window.getWindow());
     Time time;
     Cube cube;
+    Chunk chunk;
     Skybox skybox;
 
 
     //matrix transformation test
-    glm::mat4 trans = glm::mat4(1.0f);
-    GLuint transformLoc;
+
     glm::mat4 view;
     GLuint viewLoc;
     glm::mat4 projection = glm::mat4 (1.0f);
@@ -40,7 +41,7 @@ int main()
         glClearColor(1.0f, 0.25f, 0.5f, 1.0f);
         glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-        cube.bindShaderProgram(cube.shaderProgram);
+       /* cube.bindShaderProgram(cube.shaderProgram);
 
         //model matrix
         transformLoc = glGetUniformLocation(cube.shaderProgram, "transform");
@@ -54,8 +55,19 @@ int main()
         projectionLoc = glGetUniformLocation(cube.shaderProgram,"projection");
         glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
-        cube.drawCM(cube.VAO);
+        cube.drawCM(cube.VAO);*/
 
+        chunk.bindShaderProgram(chunk.shaderProgram);
+
+
+        viewLoc = glGetUniformLocation(chunk.shaderProgram, "view");
+        view = camera.getViewMatrix();
+        glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
+
+        projectionLoc = glGetUniformLocation(chunk.shaderProgram,"projection");
+        glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
+
+        chunk.draw(chunk.VAO);
 
 
         glDepthFunc(GL_LEQUAL);
