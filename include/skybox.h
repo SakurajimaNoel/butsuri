@@ -34,16 +34,16 @@ private:
             };
 
     GLuint VBO,EBO;
-    const std::string vsPath = "../shaders/skybox.vert";
-    const std::string fsPath = "../shaders/skybox.frag";
+    const std::string vsPath = "../../../shaders/skybox.vert";
+    const std::string fsPath = "../../../shaders/skybox.frag";
     const std::vector<std::string> textureFaces =
             {
-                    "../textures/right.jpg",
-                    "../textures/left.jpg",
-                    "../textures/top.jpg",
-                    "../textures/bottom.jpg",
-                    "../textures/front.jpg",
-                    "../textures/back.jpg"
+                    "../../../textures/right.jpg",
+                    "../../../textures/left.jpg",
+                    "../../../textures/top.jpg",
+                    "../../../textures/bottom.jpg",
+                    "../../../textures/front.jpg",
+                    "../../../textures/back.jpg"
             };
 
 public:

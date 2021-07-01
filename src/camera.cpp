@@ -67,3 +67,15 @@ void Camera::mouse_callback(GLFWwindow *window)
     direction.z = sin(glm::radians(yaw) * cos(glm::radians(pitch)));
     cameraFront = glm::normalize(direction);
 }
+bool Camera::curCamPos()
+{
+    newPosX = cameraPos.x;
+    newPosZ = cameraPos.z;
+    if (newPosX > oldPosX + 16 || newPosX< oldPosX - 16 || newPosZ> oldPosZ + 16 || newPosZ < oldPosZ - 16)
+    {
+        oldPosX = newPosX;
+        oldPosZ = newPosZ;
+        return true;
+    }
+    return false;
+}

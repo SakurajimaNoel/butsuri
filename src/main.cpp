@@ -6,6 +6,8 @@
 #include "../include/time.h"
 #include "../include/skybox.h"
 #include "../include/chunk.h"
+#include "../include/chunkManager.h"
+
 #define STB_IMAGE_IMPLEMENTATION
 #include "../include/stb_image.h"
 
@@ -16,15 +18,20 @@ void processInput(GLFWwindow *window, float deltaT, Camera &camera);
 int main()
 {
     Window window(800, 600);
-    //Triangle triangle;
+
     Camera camera(window.getWindow());
     Time time;
-    Cube cube;
-    Chunk chunk;
+    //Cube cube;
+    
+    //Chunk chunk(0,0);
+    //Chunk chunk2(16,0);
+    //Chunk chunk3(0, 16);
+    //Chunk chunk4(-16, 0);
+    ChunkManager chunkManager;
     Skybox skybox;
 
 
-    //matrix transformation test
+
 
     glm::mat4 view;
     GLuint viewLoc;
@@ -57,20 +64,27 @@ int main()
 
         cube.drawCM(cube.VAO);*/
 
-        chunk.bindShaderProgram(chunk.shaderProgram);
+        //chunk.bindShaderProgram(chunk.shaderProgram);
+        chunkManager.chunkRenderList.at(0)->bindShaderProgram(chunkManager.chunkRenderList.at(0)->shaderProgram);
 
-
-        viewLoc = glGetUniformLocation(chunk.shaderProgram, "view");
+        viewLoc = glGetUniformLocation(chunkManager.chunkRenderList.at(0)->shaderProgram, "view");
         view = camera.getViewMatrix();
         glUniformMatrix4fv(viewLoc, 1, GL_FALSE, glm::value_ptr(view));
 
-        projectionLoc = glGetUniformLocation(chunk.shaderProgram,"projection");
+        projectionLoc = glGetUniformLocation(chunkManager.chunkRenderList.at(0)->shaderProgram,"projection");
         glUniformMatrix4fv(projectionLoc, 1, GL_FALSE, glm::value_ptr(projection));
 
-        chunk.draw(chunk.VAO);
-
+    
+        //chunk.draw(chunk.VAO);
+        //chunk2.draw(chunk2.VAO);
+        //chunk3.draw(chunk3.VAO);
+        //chunk4.draw(chunk4.VAO);
+        chunkManager.renderChunks();
 
         glDepthFunc(GL_LEQUAL);
+
+
+
         skybox.bindShaderProgram(skybox.shaderProgram);
 
         viewLoc = glGetUniformLocation(skybox.shaderProgram, "view");
@@ -84,7 +98,10 @@ int main()
         glDepthFunc(GL_LESS);
 
 
-
+        if (camera.curCamPos())
+        {
+           chunkManager.loadChunks(camera.oldPosX, camera.oldPosZ);
+        }
 
         glfwSwapBuffers(window.getWindow());
         glfwPollEvents();

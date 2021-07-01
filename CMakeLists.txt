@@ -18,7 +18,7 @@ include_directories(${GLFW_H} ${FASTNOISE_H})
 link_libraries(${OPENGL} ${GLFW_LINK} ${FASTNOISE_LIB})
 
 
-add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c src/baseDrawable.cpp include/baseDrawable.h src/triangle.cpp include/triangle.h src/cube.cpp include/cube.h src/camera.cpp include/camera.h include/time.h src/time.cpp src/skybox.cpp include/skybox.h src/chunk.cpp include/chunk.h)
+add_executable(butsuri src/main.cpp src/window.cpp include/window.h src/glad.c src/baseDrawable.cpp include/baseDrawable.h src/triangle.cpp include/triangle.h src/cube.cpp include/cube.h src/camera.cpp include/camera.h include/time.h src/time.cpp src/skybox.cpp include/skybox.h src/chunk.cpp include/chunk.h include/chunkManager.h src/chunkManager.cpp)
 
 if (APPLE)
     target_link_libraries(butsuri "-framework OpenGL")

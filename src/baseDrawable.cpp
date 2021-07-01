@@ -91,7 +91,8 @@ void BaseDrawable::setTexture(const std::string &texturePath)
 
     GLint width, height, channels;
     stbi_set_flip_vertically_on_load(true);
-    GLubyte *data = stbi_load("../textures/grass_side.png", &width, &height, &channels, 3);
+
+    GLubyte *data = stbi_load(texturePath.c_str(), &width, &height, &channels, 3);
     if(data)
     {
         glTexImage2D(GL_TEXTURE_2D, 0, GL_RGB, width, height, 0, GL_RGB, GL_UNSIGNED_BYTE, data);
